@@ -1,0 +1,63 @@
+body {
+    color: white;
+    background-color: black;
+    font-family: monospace;
+    text-align: center;
+    border-style: solid;
+    border-radius: 8px;
+    text-shadow: 
+        0 0 7px #ffffff;
+    border-shadow: 
+        0 0 7px #ffffff;
+}
+
+div {
+    color: white;
+    background-color: #111;
+    text-align: center;
+    border-style: solid;
+    border-radius: 8px;
+    text-shadow: 
+        0 0 7px #ffffff;
+    border-shadow: 
+        0 0 7px #ffffff;
+    padding: 5px;
+
+    transition: color 0.2s;
+}
+
+textarea {
+    color: white;
+    background-color: #111;
+    border-style: solid;
+    border-radius: 8px;
+    text-shadow: 
+        0 0 7px #ffffff;
+    border-shadow: 
+        0 0 7px #ffffff;
+}
+
+.mem {
+    display: flex;
+    flex-wrap: wrap;
+    border-width: 1px;
+    gap: 4px;
+}
+
+.memcell {
+    padding: 4px;
+    border-style: none;
+}
+
+.code {
+    display: flex;
+    flex-wrap: wrap;
+    border-width: 0px;
+    gap: 0px;
+    justify-content: center;
+}
+
+.codecell {
+    border-style: none;
+    padding: 1px;
+}
